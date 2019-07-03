@@ -1,0 +1,28 @@
+#butt {
+    text-align: center;
+    width: 75%;
+    display: flex;
+    background: #1678d1;
+    box-shadow: 0 5px 0 0 #145787;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 10px;
+    color: #fff;
+    margin: 20px auto;
+    align-items: center;
+    justify-content: center;
+    animation: beat 1s linear infinite;
+    text-decoration: none !important;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    line-height: 18px;
+    }
+
+@media (max-width: 485px) {
+#butt {
+    width: 100%;
+}
+}
+
+@keyframes beat{0%,100%{width:95%}50%{width:100%}}
